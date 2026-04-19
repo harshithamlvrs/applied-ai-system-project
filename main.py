@@ -1,6 +1,12 @@
 #import classes from the pawpal_system.py file
 from pawpal_system import Owner, Pet, Task, Scheduler, Recurrence
 import streamlit as st
+from medication_rag import get_groq_api_key, load_environment
+
+load_environment()
+if not get_groq_api_key():
+    print("WARNING: GROQ_API_KEY not found. LLM features are disabled.")
+
 st.set_page_config(page_title="PawPal+", page_icon="🐾", layout="centered")
 st.title("🐾 PawPal+")
 

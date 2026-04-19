@@ -1,0 +1,4 @@
+Pet: Shuka | Medicine: Amoxicillin | Dose: 1 tablet | Time: 08:00 | Frequency: daily | Notes: Give with breakfast.
+Pet: Shuka | Medicine: Omega 3 | Dose: 1 capsule | Time: 18:00 | Frequency: daily | Notes: Give with dinner.
+Pet: Dadi | Medicine: Vitamin B drops | Dose: 2 drops | Time: 09:30 | Frequency: daily | Notes: Mix in juice.
+Pet: Dadi | Medicine: Melatonin | Dose: 1 tablet | Time: 20:00 | Frequency: as needed | Notes: Bedtime support.

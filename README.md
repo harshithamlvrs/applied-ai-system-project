@@ -4,6 +4,9 @@ PawPal+ is a Streamlit-based pet care planning app for managing multiple pets, s
 
 The app also includes a medication assistant that implements the Retrieval-Augmented Generation (RAG) feature. It reads medication instructions from a TXT file, retrieves relevant lines using stop-word filtering, and uses Groq to explain what medicine to give and at what time.
 
+# Loom Demo
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e196c51ee9fc404792d8e13e6abfa49a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 # Architecture Overview: A short explanation of your system diagram.
 ## Updated System Design
 app.py -> medication_rag.py -> assets/sample_medication.txt
@@ -40,7 +43,7 @@ If the key is missing, the program prints a warning that LLM features are disabl
 ### Run the App
 
 ```bash
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 In the app, go to the **Medication Assistant (TXT + Groq)** section:
